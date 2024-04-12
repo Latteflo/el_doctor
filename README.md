@@ -20,6 +20,16 @@ El-Doctor analyzes system metrics using the following commands:
 - **ifconfig**: Configures and displays network interface parameters.
 - **iostat**: Generates reports of CPU and disk I/O statistics.
 - **ps**: Reports a snapshot of the current processes.
+- **awk**: A powerful pattern-scanning and processing language; used to parse command output.
+- **bc**: An arbitrary precision calculator language; used for calculations in scripts, such as computing percentages.
+- **inotifywait**: Waits for changes to files using Linux's inotify interface; used for monitoring file events.
+- **mail**: Sends email messages from the command line; used to send alerts in the system monitoring scripts.
+- **hostname**: Shows or sets the system's host name; used to retrieve the current hostname.
+- **lsb_release**: Provides certain LSB (Linux Standard Base) and distribution-specific information; used to get the OS details.
+- **uname**: Displays system information; used to get the kernel version.
+- **uptime**: Tells how long the system has been running; used to get system uptime.
+- **who**: Displays who is logged on; used to see active user sessions.
+- **history**: Displays the command history; used to show the last executed commands for auditing.
 
 These commands were chosen for their wide availability and reliability in providing essential system metrics on Linux systems.
 
