@@ -11,6 +11,18 @@ El-Doctor is a robust system monitoring solution designed to provide real-time i
   
 - A visually organized dashboard created with `bashsimplecurses` to present system metrics clearly and concisely.
 
+## System Analysis
+El-Doctor analyzes system metrics using the following commands:
+
+- **top**: Provides a dynamic real-time view of a running system, particularly CPU load.
+- **free**: Displays the total amount of free and used physical and swap memory in the system.
+- **df**: Reports the amount of disk space used and available on filesystems.
+- **ifconfig**: Configures and displays network interface parameters.
+- **iostat**: Generates reports of CPU and disk I/O statistics.
+- **ps**: Reports a snapshot of the current processes.
+
+These commands were chosen for their wide availability and reliability in providing essential system metrics on Linux systems.
+
 ![alt text](assets/sys_info.png)
 ![alt text](assets/sys_info2.png)
 
@@ -38,7 +50,7 @@ cd bashsimplecurses
 source bashsimplecurses.sh
 ```
 
-## Usage
+### Usage
 To start monitoring your system with El-Doctor, run the script:
 
 
@@ -60,18 +72,6 @@ To use the Python implementation of El-Doctor, ensure you have the following pac
 
 
  ! Ensure you have configured the script with the appropriate email for alert notifications, and verify the monitoring thresholds according to your system's requirements.
-
-## System Analysis
-El-Doctor analyzes system metrics using the following commands:
-
-- **top**: Provides a dynamic real-time view of a running system, particularly CPU load.
-- **free**: Displays the total amount of free and used physical and swap memory in the system.
-- **df**: Reports the amount of disk space used and available on filesystems.
-- **ifconfig**: Configures and displays network interface parameters.
-- **iostat**: Generates reports of CPU and disk I/O statistics.
-- **ps**: Reports a snapshot of the current processes.
-
-These commands were chosen for their wide availability and reliability in providing essential system metrics on Linux systems.
 
 ## Alerts
 El-Doctor provides alerts for the following conditions:
