@@ -61,11 +61,10 @@ source bashsimplecurses.sh
 ```
 
 ### Usage
-To start monitoring your system with El-Doctor, run the script:
-
-
+To start monitoring your system with El-Doctor,let's start first bby making the script execuable and then we run the script:
 
 ```sh
+chmod +x el_doctor.sh
 ./el_doctor.sh
 ```
 ## Python Script
